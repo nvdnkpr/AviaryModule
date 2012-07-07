@@ -1,0 +1,2 @@
+OTHER_LDFLAGS=$(inherited) -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework Accelerate -framework StoreKit -framework CoreData 
+OTHER_CFLAGS=$(inherited) -ObjC -all_load -fobjc-arc
